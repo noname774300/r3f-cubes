@@ -1,0 +1,70 @@
+{
+  "name": "r3f-cubes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/cannon": "^6.4.0",
+    "@react-three/drei": "^9.22.7",
+    "@react-three/fiber": "^8.3.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
+    "husky": "^8.0.1",
+    "nanoid": "^4.0.0",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.143.0",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "zustand": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "precommit": "yarn format && yarn lint && yarn test --watchAll=false",
+    "predeploy": "yarn precommit && yarn build",
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://noname774300.github.io/r3f-cubes/",
+  "devDependencies": {
+    "@types/three": "^0.143.1"
+  }
+}
