@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/r3f-cubes/static/css/main.e6c13ad2.css",
+    "main.js": "/r3f-cubes/static/js/main.74b092cd.js",
+    "static/js/787.56fc9153.chunk.js": "/r3f-cubes/static/js/787.56fc9153.chunk.js",
+    "index.html": "/r3f-cubes/index.html",
+    "main.e6c13ad2.css.map": "/r3f-cubes/static/css/main.e6c13ad2.css.map",
+    "main.74b092cd.js.map": "/r3f-cubes/static/js/main.74b092cd.js.map",
+    "787.56fc9153.chunk.js.map": "/r3f-cubes/static/js/787.56fc9153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.74b092cd.js"
+  ]
+}
